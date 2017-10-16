@@ -1,0 +1,34 @@
+### 清华大学源
+deb http://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/debian stretch main
+
+### 网易源
+deb http://mirrors.163.com/debian/ stretch main
+deb http://mirrors.163.com/debian/ stretch-updates main non-free contrib
+deb-src http://mirrors.163.com/debian/ stretch-updates main non-free contrib
+deb http://mirrors.163.com/debian-security/ stretch/updates main non-free contrib
+deb http://httpredir.debian.org/debian stretch-backports main contrib non-free
+
+### 阿里源
+deb http://mirrors.aliyun.com/debian stretch main contrib non-free
+deb http://mirrors.aliyun.com/debian stretch-proposed-updates main contrib non-free
+deb http://mirrors.aliyun.com/debian stretch-updates main contrib non-free
+
+deb-src http://mirrors.aliyun.com/debian stretch main contrib non-free
+deb-src http://mirrors.aliyun.com/debian stretch-proposed-updates main contrib non-free
+deb-src http://mirrors.aliyun.com/debian stretch-updates main contrib non-free
+
+deb http://mirrors.aliyun.com/debian-security/ stretch/updates main non-free contrib
+deb-src http://mirrors.aliyun.com/debian-security/ stretch/updates main non-free contrib
+deb http://mirrors.aliyuncs.com/debian stretch main contrib non-free
+deb http://mirrors.aliyuncs.com/debian stretch-proposed-updates main contrib non-free
+deb http://mirrors.aliyuncs.com/debian stretch-updates main contrib non-free
+
+deb-src http://mirrors.aliyuncs.com/debian stretch main contrib non-free
+deb-src http://mirrors.aliyuncs.com/debian stretch-proposed-updates main contrib non-free
+deb-src http://mirrors.aliyuncs.com/debian stretch-updates main contrib non-free
+
+deb http://mirrors.aliyuncs.com/debian-security/ stretch/updates main non-free contrib
+deb-src http://mirrors.aliyuncs.com/debian-security/ stretch/updates main non-free contrib
+
+
+
