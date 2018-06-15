@@ -1,6 +1,9 @@
 FROM debian:jessie
 MAINTAINER Odoo S.A. <info@odoo.com>
 
+#改成国内软件源，以加快镜像创建速度
+COPY sources.list /etc/apt/sources.list
+
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
 RUN set -x; \
         apt-get update \
