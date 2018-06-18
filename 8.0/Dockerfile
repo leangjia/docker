@@ -4,7 +4,7 @@ MAINTAINER Odoo S.A. <info@odoo.com>
 #改成国内软件源，以加快镜像创建速度
 COPY sources.list /etc/apt/sources.list
 #本地安装wkhtmlpdf插件
-COPY wkhtmltox-0.12.1.2_linux-jessie-amd64.deb /root/wkhtmltox-0.12.1.2_linux-jessie-amd64.deb
+COPY wkhtmltox-0.12.1.2_linux-jessie-amd64.deb /root/wkhtmltox.deb
 
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
 RUN set -x; \
